@@ -1,1 +1,73 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(./assets/fonts/OpenSans.ttf) format('truetype');
+    font-display: swap;
+}
+
+@theme {
+    --color-text-primary: #1A1A1A;
+}
+
+@layer base {
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+        color: text-text-primary;
+        text-decoration: none;
+    }
+
+    html {
+        @apply antialiased scroll-smooth;
+        font-size: 16px;
+    }
+
+    body {
+        @apply m-0 p-0 font-sans text-text-primary bg-white;
+    }
+
+    img,
+    video {
+        @apply max-w-full h-auto;
+    }
+
+    a {
+        @apply text-inherit no-underline;
+    }
+
+    button {
+        @apply bg-transparent p-0 border-0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #fff2f2;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin-inline: auto
+}
+
+#app {
+    position: relative
+}
