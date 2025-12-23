@@ -1,13 +1,10 @@
 /** @format */
 
 import './App.css';
+import RootLayout from './layouts/Root';
 
 function App() {
-  return (
-    <>
-      <h1 className='underline'>App</h1>
-    </>
-  );
+  return <RootLayout />;
 }
 
 export default App;
