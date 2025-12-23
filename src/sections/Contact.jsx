@@ -1,6 +1,6 @@
 /** @format */
 
 const Contact = () => {
-  return <>Contact</>;
+  return <section>Contact</section>;
 };
 export default Contact;

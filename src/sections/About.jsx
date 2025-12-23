@@ -1,6 +1,6 @@
 /** @format */
 
 const About = () => {
-  return <>About</>;
+  return <section>About</section>;
 };
 export default About;

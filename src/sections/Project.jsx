@@ -1,6 +1,6 @@
 /** @format */
 
 const Project = () => {
-  return <>Project</>;
+  return <section>Project</section>;
 };
 export default Project;

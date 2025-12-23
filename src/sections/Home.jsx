@@ -1,6 +1,6 @@
 /** @format */
 
 const Home = () => {
-  return <>Home</>;
+  return <section>Home</section>;
 };
 export default Home;
