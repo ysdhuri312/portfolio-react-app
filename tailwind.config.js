@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Opne Sans', 'system-ui', 'sans-serif'],
+        sans: ['Open Sans', 'system-ui', 'sans-serif'],
       },
       colors: {
         text: {
@@ -12,6 +12,7 @@ export default {
         },
         bg: {
           'white-900': '#fff2f2',
+          primary: '#EB6440',
         },
       },
     },

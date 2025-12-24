@@ -8,7 +8,9 @@
 
 @theme {
     --color-text-primary: #1A1A1A;
-    --color-white-900: #fff2f2
+    --color-white-900: #fff2f2;
+    --color-primary: #EB6440;
+    --font-sans: 'Open Sans'
 }
 
 @layer base {
