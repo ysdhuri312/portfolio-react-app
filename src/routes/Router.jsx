@@ -6,6 +6,7 @@ import Landing from '../pages/Landing';
 import Blog from '../pages/Blog';
 import BlogPost from '../pages/BlogPost';
 import Photos from '../pages/Photos';
+import NotFound from '../components/NotFound';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         element: <Photos />,
       },
     ],
+  },
+  {
+    path: '*',
+    element: <NotFound />,
   },
 ]);
 
