@@ -10,6 +10,9 @@ export default {
         text: {
           primary: '#1A1A1A',
         },
+        bg: {
+          'white-900': '#fff2f2',
+        },
       },
     },
   },
