@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const Header = () => {
   return (
-    <header className='container mx-auto px-15 flex justify-between items-center sticky top-0 z-10 border-b border-[rgba(0,0,0,0.1)] backdrop-blur-3xl shadow-lg'>
+    <header className='container flex justify-between items-center sticky top-0 z-10 border-b border-[rgba(0,0,0,0.1)] backdrop-blur-3xl shadow-lg'>
       <h1>
         <a href='#home' className='text-xl font-black'>
           &#60; YOGESH.DEV <span className='text-2xl text-primary'>&#47; </span>

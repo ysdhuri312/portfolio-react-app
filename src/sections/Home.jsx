@@ -5,10 +5,7 @@ import resume from '../assets/pdf/Resume_Yogesh_Dhuri.pdf';
 
 const Home = () => {
   return (
-    <section
-      id='home'
-      className='container mx-auto px-15 flex items-center py-2.5 mb-20'
-    >
+    <section id='home' className='container flex items-center py-2.5 mb-20'>
       <div className='w-[60vw]'>
         <h4 className='tracking-[7px] opacity-50 font-bold mb-2.5'>
           FULL STACK DEVELOPER
