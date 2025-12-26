@@ -19,7 +19,7 @@ import sass from './icons/sass.png';
 import tailwind from './icons/tailwindcss.png';
 import typescript from './icons/typescript.png';
 
-export const icon = {
+export const icons = {
   bootstrap,
   cpp,
   css3,

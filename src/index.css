@@ -52,6 +52,14 @@
         @apply bg-transparent p-0 border-0;
     }
 
+    .icon {
+        @apply w-14 h-14 p-2.5 border border-[#333333];
+    }
+
+    .container {
+        @apply container mx-auto px-15
+    }
+
 }
 
 .container {
