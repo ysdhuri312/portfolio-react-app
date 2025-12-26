@@ -23,7 +23,7 @@ const Header = () => {
             <a href='/#skills'>Skills</a>
           </li>
           <li className='px-3 hover:bg-primary hover:text-amber-50 ease-in-out duration-300'>
-            <a href='/#my-work'>Projects</a>
+            <a href='/#projects'>Projects</a>
           </li>
           <li className='px-3 hover:bg-primary hover:text-amber-50 ease-in-out duration-300'>
             <Link to='/blog'>Blogs</Link>
