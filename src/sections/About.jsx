@@ -12,8 +12,10 @@ const About = () => {
         <img src={about} alt='hero-image' />
       </div>
       <div className='w-[60vw]'>
-        <h4 className='tracking-[7px] opacity-50 font-bold mb-2.5'>ABOUT ME</h4>
-        <h1 className='text-5xl font-black mb-6'>
+        <h4 className='tracking-[7px] opacity-50 font-black mb-2.5'>
+          ABOUT ME
+        </h4>
+        <h1 className='text-5xl mb-6 font-heading'>
           I&#39;m here to help your next project !
         </h1>
         <p className='text-[17px] font-medium mb-9 pr-24'>

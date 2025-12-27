@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Open Sans', 'system-ui', 'sans-serif'],
+        body: ['Open Sans', 'system-ui', 'sans-serif'],
+        heading: 'Montserrat',
+        logo: 'Waltograph',
       },
       colors: {
         text: {

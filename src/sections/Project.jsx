@@ -9,7 +9,7 @@ const Project = () => {
       className='container flex flex-col items-center py-2.5 mb-20 gap-7'
     >
       {' '}
-      <h3 className='text-4xl font-black text-center'>Featured My Works</h3>
+      <h3 className='text-4xl font-heading text-center'>Featured My Works</h3>
       <ul className='flex justify-center w-full h-96 gap-2 flex-wrap p-0'>
         <li className='w-1/4 h-auto flex flex-col shadow-lg'>
           <img
@@ -17,7 +17,7 @@ const Project = () => {
             className='w-full h-[50%] object-cover shadow-md'
           />
           <div className='m-2.5 h-auto flex flex-col justify-around'>
-            <h4 className='mt-2.5 font-bold text-md'>Portfolio Website</h4>
+            <h4 className='mt-2.5 text-md font-heading'>Portfolio Website</h4>
             <p className='mt-2.5 text-sm'>
               My personal website - built with HTML, CSS, javascript and Deploy
               on GitHub Pages.
@@ -48,7 +48,7 @@ const Project = () => {
             className='w-full h-[50%] object-cover shadow-md'
           />
           <div className='m-2.5 h-auto flex flex-col justify-around'>
-            <h4 className='mt-2 font-bold text-md'>Yelp Camp</h4>
+            <h4 className='mt-2 text-md font-heading'>Yelp Camp</h4>
             <p className='mt-2 text-sm'>
               A full-stack CRUD application to find nearest campground and if
               you login then can add campground with images and description. It
@@ -81,7 +81,7 @@ const Project = () => {
             className='w-full h-[50%] object-cover shadow-md'
           />
           <div className='m-2.5 h-auto flex flex-col justify-around'>
-            <h4 className='mt-2 font-bold text-md'>Yelp Camp</h4>
+            <h4 className='mt-2 font-heading text-md'>Yelp Camp</h4>
             <p className='mt-2 text-sm'>
               A full-stack CRUD application to find nearest campground and if
               you login then can add campground with images and description. It

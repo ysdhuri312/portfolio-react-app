@@ -6,11 +6,26 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./assets/fonts/Montserrat.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Waltograph';
+    src: url(./assets/fonts/waltograph.ttf) format('truetype');
+    font-display: swap;
+}
+
+
 @theme {
     --color-text-primary: #1A1A1A;
     --color-white-900: #fff2f2;
     --color-primary: #EB6440;
-    --font-sans: 'Open Sans'
+    --font-body: 'Open Sans';
+    --font-heading: 'Montserrat';
+    --font-logo: 'Waltograph';
 }
 
 @layer base {
@@ -26,7 +41,7 @@
     }
 
     body {
-        @apply m-0 p-0 font-sans text-text-primary bg-white-900;
+        @apply m-0 p-0 font-body text-text-primary bg-white-900;
     }
 
     ul,

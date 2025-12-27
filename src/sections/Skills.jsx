@@ -8,8 +8,7 @@ const Skills = () => {
       id='skills'
       className='container flex flex-col items-center gap-7 py-2.5 mb-20'
     >
-      {' '}
-      <h3 className='text-center text-4xl font-black'>
+      <h3 className='text-center text-4xl font-heading'>
         I&#39;m Specialized In
       </h3>
       <div className='flex justify-start flex-wrap w-4/5'>

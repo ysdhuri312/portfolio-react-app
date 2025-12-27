@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <section id='home' className='container flex items-center py-2.5 mb-20'>
       <div className='w-[60vw]'>
-        <h4 className='tracking-[7px] opacity-50 font-bold mb-2.5'>
+        <h4 className='tracking-[7px] opacity-50 font-black mb-2.5'>
           FULL STACK DEVELOPER
         </h4>
-        <h1 className='text-5xl font-black mb-6'>
+        <h1 className='text-5xl mb-6 font-heading'>
           Hello, I&#39;m Yogesh Dhuri !
         </h1>
         <p className='font-medium mb-9 pr-24 text-[17px]'>
