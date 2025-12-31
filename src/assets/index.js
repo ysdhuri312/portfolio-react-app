@@ -20,7 +20,15 @@ import sass from './icons/sass.png';
 import tailwind from './icons/tailwindcss.png';
 import typescript from './icons/typescript.png';
 
-export const icons = {
+import homeHero from '../assets/img/hero-1.png';
+import aboutHero from '../assets/img/hero-2.png';
+
+import portfolio from '../assets/thumbnails/portfolio.png';
+import yelpCamp from '../assets/thumbnails/yelp-camp.png';
+
+import resume from '../assets/pdf/Resume_Yogesh_Dhuri.pdf';
+
+export {
   bootstrap,
   cpp,
   css3,
@@ -41,4 +49,9 @@ export const icons = {
   sass,
   tailwind,
   typescript,
+  homeHero,
+  aboutHero,
+  resume,
+  portfolio,
+  yelpCamp,
 };
