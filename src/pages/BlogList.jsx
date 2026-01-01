@@ -1,10 +1,11 @@
 /** @format */
 import BlogCard from '../components/BlogCard';
 import { getAllBlogs } from '../blogs/blogService.js';
+import { useEffect, useState } from 'react';
 
 const BlogList = () => {
   const blogs = getAllBlogs();
-  console.log(blogs);
+
   return (
     <section id='blogs' className='container py-6 flex gap-5'>
       <div className='flex-3/4'>
@@ -19,8 +20,19 @@ const BlogList = () => {
           </a>
         </nav>
 
-        <BlogCard />
-        <BlogCard />
+        {blogs.map((blog, index) => {
+          const { title, description, date, readingTime, image } = blog;
+          return (
+            <BlogCard
+              title={title}
+              description={description}
+              date={date}
+              readingTime={readingTime}
+              image={image}
+              index={index}
+            />
+          );
+        })}
 
         <nav>
           <ul className='flex justify-between'>
