@@ -19,10 +19,10 @@ const BlogCard = () => {
             integration — Part 3 (Assistant integration)
           </a>
         </h4>
-        <div class='blog__meta' className='opacity-50'>
-          <time datetime='2018-11-03'>Nov 3, 2018</time>
+        <div className='blog__meta opacity-50'>
+          <time dateTime='2018-11-03'>Nov 3, 2018</time>
           <span> • </span>
-          <span class='blog-reading__time'>6 min read</span>
+          <span className='blog-reading__time'>6 min read</span>
         </div>
         <p className='font-light'>
           So up till now you have been able to control the switches with the

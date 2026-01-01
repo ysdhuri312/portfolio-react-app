@@ -1,13 +1,15 @@
 /** @format */
-
 import BlogCard from '../components/BlogCard';
+import { getAllBlogs } from '../blogs/blogService.js';
 
 const BlogList = () => {
+  const blogs = getAllBlogs();
+  console.log(blogs);
   return (
     <section id='blogs' className='container py-6 flex gap-5'>
       <div className='flex-3/4'>
         <h1 className='font-black text-3xl'>Blogs</h1>
-        <nav class='breadcrumb' className='my-3.5'>
+        <nav className='breadcrumb my-3.5'>
           <a href='' className='underline'>
             Home
           </a>{' '}
@@ -27,7 +29,7 @@ const BlogList = () => {
                 ← Previous
               </a>
             </li>
-            <li class='pagination__item pagination_item--status'>
+            <li className='pagination__item pagination_item--status'>
               <span aria-current='page'>1 of 6</span>
             </li>
             <li className='hover:underline'>
@@ -53,7 +55,7 @@ const BlogList = () => {
           </ul>
         </section>
         {/* Related Posts  */}
-        <section class='blogs-aside__related'>
+        <section className='blogs-aside__related'>
           <h3 className='font-bold mt-2'>Related Posts</h3>
           <ul>
             <li>
