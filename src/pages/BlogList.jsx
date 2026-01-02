@@ -11,11 +11,11 @@ const BlogList = () => {
       <div className='flex-3/4'>
         <h1 className='font-black text-3xl'>Blogs</h1>
         <nav className='breadcrumb my-3.5'>
-          <a href='' className='underline'>
+          <a href='' className='underline decoration-dotted'>
             Home
           </a>{' '}
           <span>/</span>{' '}
-          <a href='' className='underline'>
+          <a href='' className='underline decoration-dotted'>
             Tags
           </a>
         </nav>
@@ -37,7 +37,7 @@ const BlogList = () => {
 
         <nav>
           <ul className='flex justify-between'>
-            <li className='hover:underline'>
+            <li className='hover:underline hover:decoration-dotted'>
               <a href='' rel='prev' aria-label='Previous page'>
                 ← Previous
               </a>
@@ -45,7 +45,7 @@ const BlogList = () => {
             <li className='pagination__item pagination_item--status'>
               <span aria-current='page'>1 of 6</span>
             </li>
-            <li className='hover:underline'>
+            <li className='hover:underline hover:decoration-dotted'>
               <a href='' rel='next' aria-label='Next page'>
                 Next →
               </a>
@@ -60,10 +60,20 @@ const BlogList = () => {
           <h3 className='font-bold'>On this page</h3>
           <ul>
             <li>
-              <a href='#prerequisites'>Prerequisites</a>
+              <a
+                href='#prerequisites'
+                className='hover:underline hover:decoration-dotted'
+              >
+                Prerequisites
+              </a>
             </li>
             <li>
-              <a href='#assistant-setup'>Google Assistant Setup</a>
+              <a
+                href='#assistant-setup'
+                className='hover:underline hover:decoration-dotted'
+              >
+                Google Assistant Setup
+              </a>
             </li>
           </ul>
         </section>
@@ -72,10 +82,14 @@ const BlogList = () => {
           <h3 className='font-bold mt-2'>Related Posts</h3>
           <ul>
             <li>
-              <a href='#'>Raspberry Pi Home Automation — Part 1</a>
+              <a href='#' className='hover:underline hover:decoration-dotted'>
+                Raspberry Pi Home Automation — Part 1
+              </a>
             </li>
             <li>
-              <a href='#'>Raspberry Pi Home Automation — Part 2</a>
+              <a href='#' className='hover:underline hover:decoration-dotted'>
+                Raspberry Pi Home Automation — Part 2
+              </a>
             </li>
           </ul>
         </section>

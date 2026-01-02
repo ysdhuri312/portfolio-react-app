@@ -78,10 +78,20 @@ const BlogPost = () => {
           <h3 className='font-bold'>On this page</h3>
           <ul>
             <li>
-              <a href='#prerequisites'>Prerequisites</a>
+              <a
+                href='#prerequisites'
+                className='hover:underline hover:decoration-dotted'
+              >
+                Prerequisites
+              </a>
             </li>
             <li>
-              <a href='#assistant-setup'>Google Assistant Setup</a>
+              <a
+                href='#assistant-setup'
+                className='hover:underline hover:decoration-dotted'
+              >
+                Google Assistant Setup
+              </a>
             </li>
           </ul>
         </section>
@@ -90,10 +100,14 @@ const BlogPost = () => {
           <h3 className='font-bold mt-2'>Related Posts</h3>
           <ul>
             <li>
-              <a href='#'>Raspberry Pi Home Automation — Part 1</a>
+              <a href='#' className='hover:underline hover:decoration-dotted'>
+                Raspberry Pi Home Automation — Part 1
+              </a>
             </li>
             <li>
-              <a href='#'>Raspberry Pi Home Automation — Part 2</a>
+              <a href='#' className='hover:underline hover:decoration-dotted'>
+                Raspberry Pi Home Automation — Part 2
+              </a>
             </li>
           </ul>
         </section>

@@ -18,10 +18,10 @@ const BlogCard = ({
         <img
           src={image}
           alt='Raspberry Pi Home Automation'
-          className='block w-80 h-45 object-cover'
+          className='block w-60 h-45 object-cover'
         />
       </figure>
-      <div className='p-2.5'>
+      <div className='p-2.5 w-139'>
         <h4 className='font-bold hover:underline tracking-wide'>
           <a href={`blog/${id}`}>{title}</a>
         </h4>

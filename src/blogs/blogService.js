@@ -15,6 +15,7 @@ export function getAllBlogs() {
       const { title, description, date, readingTime, image, tags } = meta.data;
 
       const slug = path.split('/').slice(-2, -1)[0];
+      const imagePath = path.replace('/index.md', '/cover.png');
 
       return {
         title,
@@ -22,7 +23,7 @@ export function getAllBlogs() {
         description,
         date,
         readingTime,
-        image,
+        image: imagePath,
         tags,
         content: meta.formatedContend,
         path,
