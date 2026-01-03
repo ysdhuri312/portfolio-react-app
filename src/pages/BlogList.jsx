@@ -41,10 +41,10 @@ const BlogList = () => {
           <ul className='flex justify-between'>
             <li>
               <a href='' rel='prev' aria-label='Previous page'>
-                &larr;{' '}
-                <span className='hover:underline hover:decoration-dotted'>
+                <button className='text-sm font-medium bg-primary px-2 py-1 text-amber-50 hover:bg-[#d94b2c]'>
+                  <span className=''>&larr; </span>
                   Previous
-                </span>
+                </button>
               </a>
             </li>
             <li className='pagination__item pagination_item--status'>
@@ -52,10 +52,10 @@ const BlogList = () => {
             </li>
             <li>
               <a href='' rel='next' aria-label='Next page'>
-                <span className='hover:underline hover:decoration-dotted'>
+                <button className='text-sm font-medium bg-primary px-2 py-1 text-amber-50 hover:bg-[#d94b2c]'>
                   Next
-                </span>{' '}
-                &rarr;
+                  <span> &rarr;</span>
+                </button>
               </a>
             </li>
           </ul>

@@ -1,15 +1,16 @@
 /** @format */
 
-import { useParams } from 'react-router';
+import { Link, useParams } from 'react-router';
 import { getAllBlogs } from '../blogs/blogService.js';
 import MarkdownRender from '../blogs/MarkdownRender.jsx';
+import { getPrevNext } from '../utils/index.js';
 
 const BlogPost = () => {
   const blogs = getAllBlogs();
   const { id } = useParams();
   const blog = blogs.find((blog) => blog.slug == id);
-  const { title, slug, date, readingTime, image, tags, description, content } =
-    blog;
+  const { prev, next } = getPrevNext(blogs, blog);
+  const { title, slug, date, readingTime, tags, description, content } = blog;
 
   return (
     <section id='blog' className='container py-6 flex gap-5 '>
@@ -61,12 +62,30 @@ const BlogPost = () => {
 
             {/* Navigation  */}
             <nav className='flex justify-between mt-6'>
-              <a href='#' className='prev-post'>
-                ← Previous Post
-              </a>
-              <a href='#' className='next-post'>
-                Next Post →
-              </a>
+              <button className='text-start text-sm font-medium bg-primary px-2 py-1 text-amber-50 hover:bg-[#d94b2c]'>
+                <div>
+                  Previous:
+                  <div>
+                    {!prev ? (
+                      <Link to={`/blogs`}>Blogs</Link>
+                    ) : (
+                      <Link to={`/blog/${prev.slug}`}>{prev.slug}</Link>
+                    )}
+                  </div>
+                </div>
+              </button>
+              <button className='text-end text-sm font-medium bg-primary px-2 py-1 text-amber-50 hover:bg-[#d94b2c]'>
+                <div>
+                  Next:
+                  <div>
+                    {!next ? (
+                      <Link to={`/blogs`}>Blogs</Link>
+                    ) : (
+                      <Link to={`/blog/${next.slug}`}>{next.slug}</Link>
+                    )}
+                  </div>
+                </div>
+              </button>
             </nav>
           </footer>
         </article>
