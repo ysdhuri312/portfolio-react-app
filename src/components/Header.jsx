@@ -49,7 +49,7 @@ const Header = () => {
 
       {/* Mobile Nav */}
       <nav
-        className={`absolute flex flex-col top-[90%] w-full text-center transition-all duration-200 bg-white-900  ${
+        className={`absolute flex flex-col top-full w-full text-center transition-all duration-200 bg-white-900  ${
           open ? '-left-full' : 'left-0'
         } sm:hidden`}
       >

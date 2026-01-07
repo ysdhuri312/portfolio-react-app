@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section
       id='skills'
-      className='container flex flex-col items-center gap-7 py-2.5 mb-20'
+      className='container flex flex-col items-center gap-7 py-2.5 mb-15'
     >
       <h3 className='text-center xs:text-3xl sm:text-4xl font-heading'>
         I&#39;m Specialized In

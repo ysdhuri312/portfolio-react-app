@@ -5,13 +5,10 @@ import yelpCamp from '../assets/thumbnails/yelp-camp.png';
 
 const ProjectCard = ({ projects }) => {
   return (
-    <ul className='flex justify-center w-full h-96 gap-4 flex-wrap p-0'>
+    <ul className='flex justify-center w-full gap-4 flex-wrap p-0'>
       {projects.map((project, index) => {
         return (
-          <li
-            key={index}
-            className='sm:w-1/4 w-full h-auto flex flex-col shadow-lg'
-          >
+          <li key={index} className='sm:w-1/4 w-full flex flex-col shadow-lg'>
             <img
               src={project.image}
               className='w-full h-[50%] object-cover shadow-md'
@@ -19,7 +16,7 @@ const ProjectCard = ({ projects }) => {
             <div className='m-2.5 h-auto flex flex-col justify-around'>
               <h4 className='mt-2.5 text-md font-heading'>{project.name}</h4>
               <p className='mt-2.5 text-sm'>{project.description}</p>
-              <div className='mt-4 mb-1'>
+              <div className='mt-4'>
                 <a
                   href={project.live_app_link}
                   alt='live-link'
