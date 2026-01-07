@@ -5,7 +5,7 @@ import { close, hamburger } from '../assets';
 import { useState } from 'react';
 
 const Header = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   return (
     <header className='container py-2.5 flex justify-between items-center sticky top-0 z-10 border-b border-[rgba(0,0,0,0.1)] backdrop-blur-3xl shadow-lg'>

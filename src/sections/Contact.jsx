@@ -71,7 +71,7 @@ const Contact = () => {
               target='_blank'
               className='bg-primary'
             >
-              https://github.com/yogesh-dhuri
+              yogesh-dhuri
             </a>
           </div>
           <div className='p-3.5 rounded-xs mb-3.5 text-md bg-primary'>
@@ -82,7 +82,7 @@ const Contact = () => {
               target='_blank'
               className='bg-primary'
             >
-              http://linkedin.com/in/dhuriyogesh0312
+              /in/dhuriyogesh0312
             </a>
           </div>
           <div className='p-3.5 rounded-xs mb-3.5 text-md bg-primary'>
