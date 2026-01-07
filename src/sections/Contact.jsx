@@ -3,11 +3,11 @@
 const Contact = () => {
   return (
     <section id='contact' className='container py-2.5'>
-      <h2 className='text-4xl font-black text-center mb-2.5 font-heading'>
+      <h2 className='text-4xl font-black text-center mb-2.5 font-heading '>
         Get In Touch
       </h2>
-      <div className='flex justify-center gap-7 p-5'>
-        <div className='p-5 border rounded-xs border-[#f5bcbc] w-125 '>
+      <div className='flex flex-col md:flex-row md:justify-center justify-center gap-7 p-5'>
+        <div className='p-5 border rounded-xs border-[#f5bcbc] xs:w-full sm:w-125'>
           <form
             action='https://api.web3forms.com/submit'
             method='POST'
@@ -62,12 +62,12 @@ const Contact = () => {
             <div id='result'></div>
           </form>
         </div>
-        <div className='p-5 border rounded-xs border-[#f5bcbc] w-125 text-amber-50'>
+        <div className='p-5 border rounded-xs border-[#f5bcbc]  text-amber-50'>
           <div className='p-3.5 rounded-xs mb-3.5 text-md bg-primary'>
             <strong className='bg-primary font-heading'>GitHub</strong>
             <br />
             <a
-              href='https://github.com/yogesh-dhuri'
+              href='https://github.com/ysdhuri312'
               target='_blank'
               className='bg-primary'
             >
@@ -77,11 +77,27 @@ const Contact = () => {
           <div className='p-3.5 rounded-xs mb-3.5 text-md bg-primary'>
             <strong className='bg-primary font-heading'>LinkedIn</strong>
             <br />
-            <a href='#' target='_blank' className='bg-primary'>
-              http://www.linkedin.com/in/dhuriyogesh0312
+            <a
+              href='http://www.linkedin.com/in/dhuriyogesh0312'
+              target='_blank'
+              className='bg-primary'
+            >
+              http://linkedin.com/in/dhuriyogesh0312
             </a>
           </div>
-          <div className='placeholder'></div>
+          <div className='p-3.5 rounded-xs mb-3.5 text-md bg-primary'>
+            <strong className='bg-primary font-heading'>
+              Personal Website
+            </strong>
+            <br />
+            <a
+              href='https://ysdhuri312.github.io/dhuriyogesh.github.io/'
+              target='_blank'
+              className='bg-primary'
+            >
+              https://ysdhuri312.github.io/
+            </a>
+          </div>
           <div className='placeholder'></div>
         </div>
       </div>
