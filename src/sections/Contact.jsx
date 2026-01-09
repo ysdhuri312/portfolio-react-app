@@ -41,7 +41,7 @@ const Contact = () => {
       <div className='flex flex-col md:flex-row md:justify-center justify-center gap-7 p-5'>
         <div className='p-4 border rounded-xs border-[#f5bcbc] xs:w-full sm:w-125'>
           <form onSubmit={onSubmit}>
-            <label htmlFor='name' className='block font-medium mt-2.5 mb-2'>
+            <label htmlFor='name' className='font-medium mt-2.5 mb-2'>
               Name
               <input
                 type='text'
@@ -51,7 +51,7 @@ const Contact = () => {
                 className='w-full p-2.5 rounded-xs border border-[#f5bcbc] outline-none mb-2.5 text-sm'
               />
             </label>
-            <label htmlFor='email' className='block font-medium mt-2.5 mb-2'>
+            <label htmlFor='email' className='font-medium mt-2.5 mb-2'>
               Email
               <input
                 type='email'
@@ -62,7 +62,7 @@ const Contact = () => {
               />
             </label>
 
-            <label htmlFor='message' className='block font-medium mt-2.5 mb-2'>
+            <label htmlFor='message' className='font-medium mt-2.5 mb-2'>
               Message
               <textarea
                 id='message'
