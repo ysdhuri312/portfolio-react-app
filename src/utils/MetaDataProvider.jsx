@@ -1,7 +1,7 @@
 /** @format */
 
 import { useEffect, useState } from 'react';
-import { MetadataContext } from './MetaDataContext.js';
+import { MetadataContext } from './MetadataContext.js';
 
 function MetadataProvider({ children }) {
   const defaultTitle = 'Yogesh Dhuri | Full Stack Web Developer Portfolio';
