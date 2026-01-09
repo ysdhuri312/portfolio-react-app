@@ -9,6 +9,7 @@ const ProjectCard = ({ projects }) => {
             <img
               src={project.image}
               className='w-full h-[50%] object-cover shadow-md'
+              alt={project.name}
             />
             <div className='m-2.5 h-auto flex flex-col justify-around'>
               <h4 className='mt-2.5 text-md font-heading'>{project.name}</h4>

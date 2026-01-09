@@ -4,12 +4,12 @@ import { createBrowserRouter } from 'react-router';
 import { Suspense, lazy } from 'react';
 import Root from '../layouts/Root';
 import Landing from '../pages/Landing';
-import Photos from '../pages/Photos';
-import NotFound from '../components/NotFound';
-import Loading from '../components/Loading';
 
 const BlogList = lazy(() => import('../pages/BlogList'));
 const BlogPost = lazy(() => import('../pages/BlogPost'));
+const Photos = lazy(() => import('../pages/Photos'));
+const NotFound = lazy(() => import('../components/NotFound'));
+const Loading = lazy(() => import('../components/Loading'));
 
 const router = createBrowserRouter([
   {

@@ -10,10 +10,15 @@ const Contact = () => {
     const formData = new FormData(event.target);
     formData.append('access_key', import.meta.env.VITE_WEB3FORMS_SECRET_KEY);
 
-    const response = await fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
-      body: formData,
-    });
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData,
+      });
+    } catch (error) {
+      console.error(error);
+      setError('Something went wrong');
+    }
 
     const data = await response.json();
     if (data.success) {
