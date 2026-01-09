@@ -5,6 +5,7 @@ import { getAllBlogs } from '../blogs/blogService.js';
 import MarkdownRender from '../blogs/MarkdownRender.jsx';
 import { getPrevNext } from '../utils/getPrevNext.js';
 import { useMetadata } from '../utils/hooks/useMetadata.js';
+import Giscus from '@giscus/react';
 
 const BlogPost = () => {
   const blogs = getAllBlogs();
@@ -97,6 +98,23 @@ const BlogPost = () => {
               </button>
             </nav>
           </footer>
+          <div className='mt-10'>
+            <Giscus
+              id='comments'
+              repo='ysdhuri312/portfolio-react-app'
+              repoId='R_kgDOQrgOwQ'
+              category='General'
+              categoryId='DIC_kwDOQrgOwc4C0v4C'
+              mapping='pathname'
+              term='Welcome to @giscus/react component!'
+              reactionsEnabled='1'
+              emitMetadata='0'
+              inputPosition='top'
+              theme='light'
+              lang='en'
+              loading='lazy'
+            />
+          </div>
         </article>
       </div>
 
