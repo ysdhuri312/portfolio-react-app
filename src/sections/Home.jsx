@@ -1,7 +1,7 @@
 /** @format */
 
-import home from '../assets/img/hero-1.png';
-import resume from '../assets/pdf/Resume_Yogesh_Dhuri.pdf';
+import { homeHero } from '../assets';
+import { resume } from '../assets';
 
 const Home = () => {
   return (
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
       <div className='items-center sm:w-[50vw] xs:mt-9'>
         <img
-          src={home}
+          src={homeHero}
           className='my-9 xs:size-65 sm:size-75 lg:size-90 xs:m-0 md:ml-20'
           alt='home-image'
         />

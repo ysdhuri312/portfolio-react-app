@@ -1,6 +1,6 @@
 /** @format */
 
-import about from '../assets/img/hero-2.png';
+import { aboutHero } from '../assets';
 
 const About = () => {
   return (
@@ -9,7 +9,11 @@ const About = () => {
       className='container flex flex-col-reverse sm:flex-row items-center gap-12 py-2.5 mb-20'
     >
       <div className='items-center sm:w-[50vw]'>
-        <img src={about} alt='hero-image' className='sm:size-70 lg:size-90' />
+        <img
+          src={aboutHero}
+          alt='hero-image'
+          className='sm:size-70 lg:size-90'
+        />
       </div>
       <div className='items-center sm:w-[50vw] xs:my-5'>
         <h4 className='xs:text-center sm:text-left tracking-[7px] opacity-50 font-black mb-2.5'>

@@ -1,8 +1,5 @@
 /** @format */
 
-import portfolio from '../assets/thumbnails/portfolio.png';
-import yelpCamp from '../assets/thumbnails/yelp-camp.png';
-
 const ProjectCard = ({ projects }) => {
   return (
     <ul className='flex justify-center w-full gap-4 flex-wrap p-0'>

@@ -12,23 +12,13 @@ import {
   tailwind,
   typescript,
   c,
-  cpp,
-  graphql,
-  next,
   node,
-  postgresql,
-  python,
-  docker,
   bootstrap,
   jquery,
   sass,
   figma,
-  redux,
-  homeHero,
-  aboutHero,
   portfolio,
   yelpCamp,
-  resume,
 } from '../assets';
 
 const technologies = [

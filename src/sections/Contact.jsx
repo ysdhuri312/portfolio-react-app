@@ -1,8 +1,6 @@
 /** @format */
 
 import { useState } from 'react';
-import { data } from 'react-router';
-
 const Contact = () => {
   const [result, setResult] = useState('');
 
