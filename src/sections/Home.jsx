@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section
       id='home'
-      className='container flex flex-col sm:flex-row justify-between items-center py-2.5 mb-20'
+      className='container flex flex-col sm:flex-row items-center py-2.5 mb-20'
     >
       <div className='items-center sm:w-[50vw] xs:my-9'>
         <h4 className='xs:text-center sm:text-left tracking-[7px] opacity-50 font-black mb-2.5'>
@@ -41,7 +41,7 @@ const Home = () => {
       <div className='items-center sm:w-[50vw] xs:mt-9'>
         <img
           src={home}
-          className='my-9 ml-15 xs:size-65 sm:size-70 lg:size-90 xs:m-0'
+          className='my-9 xs:size-65 sm:size-75 lg:size-90 xs:m-0 md:ml-20'
           alt='home-image'
         />
       </div>
