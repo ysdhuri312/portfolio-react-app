@@ -6,7 +6,7 @@ for a system that satisfies specific requirements. System design meets the needs
 of your business or organization through coherent and efficient systems.'
 date: 'November 3, 2018'
 readingTime: '6 min read'
-image: './cover.png'
+image: '/blogs/2025/system-design-the-complete-course/cover.png'
 tags: ['system-design', 'distributedsystems', 'architecture']
 ---
 

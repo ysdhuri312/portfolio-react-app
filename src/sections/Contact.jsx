@@ -15,17 +15,21 @@ const Contact = () => {
         method: 'POST',
         body: formData,
       });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      if (data.success) {
+        setResult('Form Submitted Successfully...');
+        event.target.reset();
+      } else {
+        setResult('Submission failed');
+      }
     } catch (error) {
       console.error(error);
-      setError('Something went wrong');
-    }
-
-    const data = await response.json();
-    if (data.success) {
-      setResult('Form Submitted Successfully...');
-      event.target.reset();
-    } else {
-      setResult('Error!!!');
+      setResult('Something went wrong');
     }
   };
 

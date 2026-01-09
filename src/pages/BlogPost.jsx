@@ -12,7 +12,8 @@ const BlogPost = () => {
   const { id } = useParams();
   const blog = blogs.find((blog) => blog.slug == id);
   const { prev, next } = getPrevNext(blogs, blog);
-  const { title, slug, date, readingTime, tags, description, content } = blog;
+  const { title, slug, date, readingTime, tags, description, content, image } =
+    blog;
 
   useMetadata({
     title: blog.title,
@@ -46,7 +47,7 @@ const BlogPost = () => {
           <h3 className='text-l mb-4'>{description}</h3>
           <figure>
             <img
-              src='../sample-blog.png'
+              src={image}
               alt='Raspberry Pi Home Automation'
               className='w-full h-500px'
             />

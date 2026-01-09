@@ -12,10 +12,8 @@ export function getAllBlogs() {
   return Object.entries(modules)
     .map(([path, raw]) => {
       const { meta } = markdownParser(raw);
-      const { title, description, date, readingTime, tags } = meta.data;
-
+      const { title, description, date, readingTime, tags, image } = meta.data;
       const slug = path.split('/').slice(-2, -1)[0];
-      const imagePath = path.replace('/index.md', '/cover.png');
 
       return {
         title,
@@ -23,7 +21,7 @@ export function getAllBlogs() {
         description,
         date,
         readingTime,
-        image: imagePath,
+        image,
         tags,
         content: meta.formatedContend,
         path,

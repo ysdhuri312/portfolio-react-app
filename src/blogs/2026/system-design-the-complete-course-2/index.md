@@ -4,7 +4,7 @@ slug: 'system-design-the-complete-course-2'
 description: 'Learn how to design systems at scale and prepare for system design interviews.'
 date: 'November 3, 2018'
 readingTime: '240 min read'
-image: './cover.png'
+image: '/blogs/2025/system-design-the-complete-course/cover.png'
 tags: ['system-design', 'distributedsystems', 'architecture']
 ---
 
