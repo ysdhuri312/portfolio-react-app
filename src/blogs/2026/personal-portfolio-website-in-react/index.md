@@ -14,22 +14,22 @@ tags: ['react-js', 'personal-website', 'ui']
 
 ### My Approach
 
-✅ Markdown-based blog (stored locally in repo)
-✅ Static content, dynamic UI
-✅ SEO-friendly structure
-✅ Easy to scale later (CMS / API if needed)
+✅ Markdown-based blog (stored locally in repo)  
+✅ Static content, dynamic UI  
+✅ SEO-friendly structure  
+✅ Easy to scale later (CMS / API if needed)  
 ✅ Figma for UI design
 
 ### Tech Stack
 
-✅ React (UI)
-✅ Vite (fast build & dev)
-✅ React Router (routing)
-✅ Markdown files (.md) for blog posts
-✅ gray-matter (frontmatter metadata)
-✅ remark / react-markdown (render markdown)
-✅ Giscus for comments or discussion
-✅ Tailwind
+✅ React (UI)  
+✅ Vite (fast build & dev)  
+✅ React Router (routing)  
+✅ Markdown files (.md) for blog posts  
+✅ gray-matter (frontmatter metadata)  
+✅ remark / react-markdown (render markdown)  
+✅ Giscus for comments or discussion  
+✅ Tailwind  
 ✅ Figma
 
 ### Folder Structure
