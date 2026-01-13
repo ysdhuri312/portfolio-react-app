@@ -134,26 +134,26 @@ const projects = [
     live_app_link: 'https://yelp-camp-i3wi.onrender.com/',
   },
   {
-    name: 'Trip Guide',
+    name: 'Personal and Blogging website',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'My personal portfolio and blogging website, built with React, React Markdown and styled using Tailwind CSS to showcase my projects and skills',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react-js',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'tailwind-css',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'react-markdown',
         color: 'pink-text-gradient',
       },
     ],
-    image: yelpCamp,
-    source_code_link: '#',
-    live_app_link: '#',
+    image: portfolio,
+    source_code_link: 'https://github.com/ysdhuri312/dhuriyogesh_personal.git',
+    live_app_link: 'https://dhuriyogesh.vercel.app/',
   },
 ];
 
